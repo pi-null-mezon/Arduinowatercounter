@@ -9,5 +9,4 @@ Note that sketch provides only following functions, available through COM-termin
 *  t - to adjust treshold of pulse counting trigger;
 *  * l - to adjust one step increment for values;
 *  x - to cross-toggle warm and cold water pins; 
-*  v - toggle on/off measurement data transmission.*
-*Ttransmission format are following ...0xFF 0xXX 0xYY 0xFF 0xXX 0xYY 0xFF..., where 0xFF - markup symbol, 0xXX - 8 bit measurement from warm channel, and 0xYY - 8 bit measurement from cold channel.
+*  v - toggle on/off measurement data transmission (transmission format are following ...0xFF 0xXX 0xYY 0xFF 0xXX 0xYY 0xFF..., where 0xFF - markup symbol, 0xXX - 8 bit measurement from warm channel, and 0xYY - 8 bit measurement from cold channel).
